@@ -7937,7 +7937,7 @@ Webflow.define('brand', module.exports = function ($) {
     });
     var $logoText = $('<img>').attr('src', 'https://d1otoma47x30pg.cloudfront.net/img/webflow-badge-text.6faa6a38cd.svg').attr('alt', 'Made in Webflow');
     $brand.append($logoArt, $logoText);
-    return $brand[0];
+    return null;
   }
 
   function ensureBrand() {
